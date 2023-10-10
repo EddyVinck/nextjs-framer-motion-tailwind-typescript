@@ -22,17 +22,18 @@ export default function Home() {
         </code>{" "}
         which adds animation capabilities.
       </p>
-      <p>
-        <code>AnimatePresence</code> keeps components from being removed from
-        the DOM until the exit-animation is complete.
-      </p>
       <AnimationExample />
-      <ListExample />
-      <EnterAndLeaveExample />
       <MotionValueExample />
+      <ListExample />
       <KeyframesExample />
       <VariantsExample />
+      <EnterAndLeaveExample />
       <DragExample />
+      {/* TODO: examples with AnimatePresence */}
+      {/* <p>
+        <code>AnimatePresence</code> keeps components from being removed from
+        the DOM until the exit-animation is complete.
+      </p> */}
       <GitHubButton />
     </main>
   );
